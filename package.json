@@ -3,4 +3,10 @@
     "@tailwindcss/cli": "^4.3.2",
     "tailwindcss": "^4.3.2"
   }
+
+}
+  {
+  "scripts": {
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./output.css"
+  }
 }
